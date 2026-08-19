@@ -1,0 +1,266 @@
+{
+  "_about": "Tags per tutorial (key = json basename). Subject tags describe the topic; operational tags describe where it can run: lab = needs the Root Lab, shared = runs in the shared shell, broken-env = cannot run in the current lab image/kernel, required-ec2 = needs a separate cloud/EC2 instance to run (e.g. the OpenStack lessons). wip = broken-env but on the roadmap to fix (bake package / rebuild kernel / update base image) - pair with broken-env, drop both when fixed.", 
+  "aclbasics": [
+    "storage", 
+    "filesystem", 
+    "permissions", 
+    "security", 
+    "lab"
+  ], 
+  "awksedbasics": [
+    "shell", 
+    "text-processing", 
+    "programming", 
+    "shared"
+  ], 
+  "createnewuser": [
+    "users", 
+    "administration", 
+    "lab"
+  ], 
+  "crontabbasics": [
+    "cron", 
+    "administration", 
+    "lab"
+  ], 
+  "diycreateuser": [
+    "users", 
+    "administration", 
+    "lab"
+  ], 
+  "dockerbasics": [
+    "containers", 
+    "docker", 
+    "lab", 
+    "broken-env", 
+    "wip"
+  ], 
+  "dockerimages": [
+    "containers", 
+    "docker", 
+    "lab", 
+    "broken-env", 
+    "wip"
+  ], 
+  "ext3fsbasics": [
+    "storage", 
+    "filesystem", 
+    "lab"
+  ], 
+  "ext3fsfilerecovery": [
+    "storage", 
+    "filesystem", 
+    "recovery", 
+    "lab"
+  ], 
+  "ext4fsbasics": [
+    "storage", 
+    "filesystem", 
+    "lab"
+  ], 
+  "fdisk": [
+    "storage", 
+    "partitioning", 
+    "lab"
+  ], 
+  "firewalldbasics": [
+    "networking", 
+    "firewall", 
+    "security", 
+    "lab", 
+    "broken-env", 
+    "wip"
+  ], 
+  "funwithfsck": [
+    "storage", 
+    "filesystem", 
+    "recovery", 
+    "lab"
+  ], 
+  "gitbasics": [
+    "programming", 
+    "vcs", 
+    "git", 
+    "shared"
+  ], 
+  "helloworldinc": [
+    "programming", 
+    "compiler", 
+    "c", 
+    "lab"
+  ], 
+  "lvm": [
+    "storage", 
+    "lvm", 
+    "lab", 
+    "broken-env", 
+    "wip"
+  ], 
+  "lvmbasics": [
+    "storage", 
+    "lvm", 
+    "lab", 
+    "broken-env", 
+    "wip"
+  ], 
+  "mongodbadmin": [
+    "database", 
+    "mongodb", 
+    "lab", 
+    "broken-env", 
+    "wip"
+  ], 
+  "mountcommand": [
+    "storage", 
+    "filesystem", 
+    "lab"
+  ], 
+  "mysqlinstallation": [
+    "database", 
+    "mysql", 
+    "lab"
+  ], 
+  "mysqlmariamigration": [
+    "database", 
+    "mysql", 
+    "mariadb", 
+    "lab", 
+    "broken-env", 
+    "wip"
+  ], 
+  "openstackbasics": [
+    "cloud", 
+    "openstack", 
+    "required-ec2"
+  ], 
+  "openstackcinder": [
+    "cloud", 
+    "openstack", 
+    "storage", 
+    "required-ec2"
+  ], 
+  "openstackcindercli": [
+    "cloud", 
+    "openstack", 
+    "storage", 
+    "required-ec2"
+  ], 
+  "openstackglance": [
+    "cloud", 
+    "openstack", 
+    "required-ec2"
+  ], 
+  "openstacknovacli": [
+    "cloud", 
+    "openstack", 
+    "required-ec2"
+  ], 
+  "openstackswiftcli": [
+    "cloud", 
+    "openstack", 
+    "storage", 
+    "required-ec2"
+  ], 
+  "partitionwithfdisk": [
+    "storage", 
+    "partitioning", 
+    "lab"
+  ], 
+  "postgresqladministration": [
+    "database", 
+    "postgresql", 
+    "lab"
+  ], 
+  "postgresqlperformance": [
+    "database", 
+    "postgresql", 
+    "performance", 
+    "lab"
+  ], 
+  "puppetbasics": [
+    "config-management", 
+    "puppet", 
+    "lab", 
+    "broken-env", 
+    "wip"
+  ], 
+  "setupapachevhosts": [
+    "web-server", 
+    "apache", 
+    "networking", 
+    "lab"
+  ], 
+  "setupnfs": [
+    "storage", 
+    "networking", 
+    "nfs", 
+    "lab", 
+    "broken-env", 
+    "wip"
+  ], 
+  "setupraid": [
+    "storage", 
+    "raid", 
+    "lab"
+  ], 
+  "setupyumrepo": [
+    "package-management", 
+    "yum", 
+    "lab"
+  ], 
+  "sshkeysbasics": [
+    "security", 
+    "ssh", 
+    "networking", 
+    "shared"
+  ], 
+  "sudoconfig": [
+    "security", 
+    "sudo", 
+    "administration", 
+    "lab"
+  ], 
+  "svnbasics": [
+    "programming", 
+    "vcs", 
+    "svn", 
+    "shared"
+  ], 
+  "swapbasics": [
+    "storage", 
+    "swap", 
+    "memory", 
+    "lab"
+  ], 
+  "systemctlbasics": [
+    "administration", 
+    "services", 
+    "systemd", 
+    "lab", 
+    "broken-env", 
+    "wip"
+  ], 
+  "systemmonitoringcommands": [
+    "monitoring", 
+    "process", 
+    "administration", 
+    "shared"
+  ], 
+  "understandingstrace": [
+    "debugging", 
+    "process", 
+    "programming", 
+    "lab"
+  ], 
+  "xfsbasics": [
+    "storage", 
+    "filesystem", 
+    "xfs", 
+    "lab"
+  ], 
+  "yumbasics": [
+    "package-management", 
+    "yum", 
+    "lab"
+  ]
+}
